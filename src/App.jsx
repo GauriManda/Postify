@@ -6,7 +6,8 @@ import PostList from "./components/PostList.jsx";
 import PostModal from "./components/PostModal.jsx";
 import "./App.css";
 
-const API_URL = "https://postifybackend-yqiu.onrender.com";
+const API_URL = "https://postifybackend-yqiu.onrender.com/api";
+
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState(null);
